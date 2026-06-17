@@ -308,8 +308,6 @@
   margin: 100px 0 0;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
-  flex-wrap: wrap;
   gap: 40px;
 }
 
@@ -345,9 +343,7 @@
 
 .footer__columns {
   display: flex;
-  justify-content: space-between;
   gap: 80px;
-  align-items: flex-start;
 }
 
 .footer__column {
@@ -380,11 +376,11 @@
 }
 
 .footer__list-item {
-  padding-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 .footer__list-item:last-child {
-  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 .footer__column-link {
@@ -402,6 +398,5 @@
 
 .footer__copyright {
   display: flex;
-  align-items: flex-end;
   margin-top: 100px;
 }
